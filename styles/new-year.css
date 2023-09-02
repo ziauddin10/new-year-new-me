@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common class styles */
+
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  height: 64px;
+  padding: 20px 25px;
+  border: 0;
+  border-radius: 5px;
+  background: #f15b22;
+}
+
+section {
+  margin: 130px 200px;
+}
+
+/* header banner styles */
+header {
+  height: 800px;
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-info {
+  width: 500px;
+  float: right;
+  text-align: right;
+  padding: 130px 200px;
+}
+.header-title {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.header-description {
+  color: #444343;
+  margin-bottom: 30px;
+}
+
+/* previous year section */
+.previous-year {
+  display: flex;
+  align-items: center;
+}
+
+.previous-info .title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.previous-info .description {
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.previous-year li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.icon-check {
+  color: rgb(177, 244, 78);
+}
+
+/* my plan style  */
+.my-plan-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 90px;
+}
+
+.my-plan .title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.plan-list h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
